@@ -1,3 +1,26 @@
+<footer class="py-5">
+  <hr>
+  <div class="container text-center text-info">
+    <div class="row">
+      <div class="col">
+        {% if site.show_social_icons %}
+          {% include social_links.html %}
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All content copyright Your Name &copy; {{ site.time | date: '%Y' }}.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
 <!-- JS -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

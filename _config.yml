@@ -9,3 +9,8 @@ url:
 permalink: :title/
 sass:
   sass_dir: css
+
+# Social icons
+show_social_icons: true
+github_username: someGithubUser
+twitter_username: someTwitterUser

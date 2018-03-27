@@ -1,0 +1,18 @@
+.navbar{
+  box-shadow: 1px 1px 3px $primary;
+  opacity: 0.8;
+  background: $white;
+
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+  }
+}
+
+.nav-link {
+  color: $info !important;
+
+  &:hover {
+    color: $primary !important;
+  }
+}
