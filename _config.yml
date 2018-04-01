@@ -14,3 +14,7 @@ sass:
 show_social_icons: true
 github_username: someGithubUser
 twitter_username: someTwitterUser
+
+# plugins
+plugins: [jekyll-paginate]
+paginate: 3
