@@ -1,6 +1,6 @@
-# jekyll-bootstrap-4-minimal-starter
+# jekyll-bootstrap-4-starter
 
-A (very) minimal [Jekyll](https://jekyllrb.com/) and [Bootstrap 4](https://getbootstrap.com/) starter template.
+A [Jekyll](https://jekyllrb.com/) and [Bootstrap 4](https://getbootstrap.com/) starter template.
 
 Over-ride Bootstrap variables via the */css/custom_variables.scss* file.
 
